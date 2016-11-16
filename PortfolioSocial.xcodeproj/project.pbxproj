@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0BEC781D235C9D00F321DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0BEC771D235C9D00F321DE /* Main.storyboard */; };
+		CD3B87421D1300A7004DD98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B87411D1300A7004DD98D /* AppDelegate.swift */; };
+		CD3B87441D1300A7004DD98D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B87431D1300A7004DD98D /* ViewController.swift */; };
+		CD3B874A1D1300A7004DD98D /* PortfolioSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD3B87481D1300A7004DD98D /* PortfolioSocial.xcdatamodeld */; };
+		CD3B874C1D1300A7004DD98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3B874B1D1300A7004DD98D /* Assets.xcassets */; };
+		CD3B874F1D1300A7004DD98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B874D1D1300A7004DD98D /* LaunchScreen.storyboard */; };
+		CD3B875A1D1300A8004DD98D /* PortfolioSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B87591D1300A8004DD98D /* PortfolioSocialTests.swift */; };
+		CD3B87651D1300A8004DD98D /* PortfolioSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B87641D1300A8004DD98D /* PortfolioSocialUITests.swift */; };
+		CDA2F51E1D133627006DDB59 /* UserTimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F51D1D133627006DDB59 /* UserTimelineTableViewController.swift */; };
+		CDA2F5201D133CD2006DDB59 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F51F1D133CD2006DDB59 /* NewsTableViewController.swift */; };
+		CDA2F5251D13568B006DDB59 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F5211D13568B006DDB59 /* MediaItem.swift */; };
+		CDA2F5261D13568B006DDB59 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F5221D13568B006DDB59 /* Tweet.swift */; };
+		CDA2F5271D13568B006DDB59 /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F5231D13568B006DDB59 /* TwitterRequest.swift */; };
+		CDA2F5281D13568B006DDB59 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F5241D13568B006DDB59 /* User.swift */; };
+		CDA2F52A1D135B7F006DDB59 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F5291D135B7F006DDB59 /* NewsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3B87561D1300A8004DD98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3B87361D1300A7004DD98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3B873D1D1300A7004DD98D;
+			remoteInfo = PortfolioSocial;
+		};
+		CD3B87611D1300A8004DD98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3B87361D1300A7004DD98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3B873D1D1300A7004DD98D;
+			remoteInfo = PortfolioSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0BEC771D235C9D00F321DE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD3B873E1D1300A7004DD98D /* PortfolioSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B87411D1300A7004DD98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3B87431D1300A7004DD98D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD3B87491D1300A7004DD98D /* PortfolioSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioSocial.xcdatamodel; sourceTree = "<group>"; };
+		CD3B874B1D1300A7004DD98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3B874E1D1300A7004DD98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3B87501D1300A7004DD98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3B87551D1300A8004DD98D /* PortfolioSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B87591D1300A8004DD98D /* PortfolioSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioSocialTests.swift; sourceTree = "<group>"; };
+		CD3B875B1D1300A8004DD98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3B87601D1300A8004DD98D /* PortfolioSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B87641D1300A8004DD98D /* PortfolioSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioSocialUITests.swift; sourceTree = "<group>"; };
+		CD3B87661D1300A8004DD98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA2F51D1D133627006DDB59 /* UserTimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTimelineTableViewController.swift; sourceTree = "<group>"; };
+		CDA2F51F1D133CD2006DDB59 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		CDA2F5211D13568B006DDB59 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		CDA2F5221D13568B006DDB59 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		CDA2F5231D13568B006DDB59 /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
+		CDA2F5241D13568B006DDB59 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CDA2F5291D135B7F006DDB59 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3B873B1D1300A7004DD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B87521D1300A8004DD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B875D1D1300A8004DD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3B87351D1300A7004DD98D = {
+			isa = PBXGroup;
+			children = (
+				CD3B87401D1300A7004DD98D /* PortfolioSocial */,
+				CD3B87581D1300A8004DD98D /* PortfolioSocialTests */,
+				CD3B87631D1300A8004DD98D /* PortfolioSocialUITests */,
+				CD3B873F1D1300A7004DD98D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3B873F1D1300A7004DD98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B873E1D1300A7004DD98D /* PortfolioSocial.app */,
+				CD3B87551D1300A8004DD98D /* PortfolioSocialTests.xctest */,
+				CD3B87601D1300A8004DD98D /* PortfolioSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3B87401D1300A7004DD98D /* PortfolioSocial */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2F5211D13568B006DDB59 /* MediaItem.swift */,
+				CDA2F5221D13568B006DDB59 /* Tweet.swift */,
+				CDA2F5231D13568B006DDB59 /* TwitterRequest.swift */,
+				CDA2F5241D13568B006DDB59 /* User.swift */,
+				CD3B87411D1300A7004DD98D /* AppDelegate.swift */,
+				CD3B87431D1300A7004DD98D /* ViewController.swift */,
+				CD0BEC771D235C9D00F321DE /* Main.storyboard */,
+				CDA2F51D1D133627006DDB59 /* UserTimelineTableViewController.swift */,
+				CDA2F51F1D133CD2006DDB59 /* NewsTableViewController.swift */,
+				CDA2F5291D135B7F006DDB59 /* NewsTableViewCell.swift */,
+				CD3B874B1D1300A7004DD98D /* Assets.xcassets */,
+				CD3B874D1D1300A7004DD98D /* LaunchScreen.storyboard */,
+				CD3B87501D1300A7004DD98D /* Info.plist */,
+				CD3B87481D1300A7004DD98D /* PortfolioSocial.xcdatamodeld */,
+			);
+			path = PortfolioSocial;
+			sourceTree = "<group>";
+		};
+		CD3B87581D1300A8004DD98D /* PortfolioSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B87591D1300A8004DD98D /* PortfolioSocialTests.swift */,
+				CD3B875B1D1300A8004DD98D /* Info.plist */,
+			);
+			path = PortfolioSocialTests;
+			sourceTree = "<group>";
+		};
+		CD3B87631D1300A8004DD98D /* PortfolioSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B87641D1300A8004DD98D /* PortfolioSocialUITests.swift */,
+				CD3B87661D1300A8004DD98D /* Info.plist */,
+			);
+			path = PortfolioSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3B873D1D1300A7004DD98D /* PortfolioSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B87691D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocial" */;
+			buildPhases = (
+				CD3B873A1D1300A7004DD98D /* Sources */,
+				CD3B873B1D1300A7004DD98D /* Frameworks */,
+				CD3B873C1D1300A7004DD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortfolioSocial;
+			productName = PortfolioSocial;
+			productReference = CD3B873E1D1300A7004DD98D /* PortfolioSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3B87541D1300A8004DD98D /* PortfolioSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B876C1D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocialTests" */;
+			buildPhases = (
+				CD3B87511D1300A8004DD98D /* Sources */,
+				CD3B87521D1300A8004DD98D /* Frameworks */,
+				CD3B87531D1300A8004DD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3B87571D1300A8004DD98D /* PBXTargetDependency */,
+			);
+			name = PortfolioSocialTests;
+			productName = PortfolioSocialTests;
+			productReference = CD3B87551D1300A8004DD98D /* PortfolioSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3B875F1D1300A8004DD98D /* PortfolioSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B876F1D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocialUITests" */;
+			buildPhases = (
+				CD3B875C1D1300A8004DD98D /* Sources */,
+				CD3B875D1D1300A8004DD98D /* Frameworks */,
+				CD3B875E1D1300A8004DD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3B87621D1300A8004DD98D /* PBXTargetDependency */,
+			);
+			name = PortfolioSocialUITests;
+			productName = PortfolioSocialUITests;
+			productReference = CD3B87601D1300A8004DD98D /* PortfolioSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3B87361D1300A7004DD98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Valentina Henao";
+				TargetAttributes = {
+					CD3B873D1D1300A7004DD98D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CN4W3YSZKE;
+					};
+					CD3B87541D1300A8004DD98D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CN4W3YSZKE;
+						TestTargetID = CD3B873D1D1300A7004DD98D;
+					};
+					CD3B875F1D1300A8004DD98D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CN4W3YSZKE;
+						TestTargetID = CD3B873D1D1300A7004DD98D;
+					};
+				};
+			};
+			buildConfigurationList = CD3B87391D1300A7004DD98D /* Build configuration list for PBXProject "PortfolioSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3B87351D1300A7004DD98D;
+			productRefGroup = CD3B873F1D1300A7004DD98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3B873D1D1300A7004DD98D /* PortfolioSocial */,
+				CD3B87541D1300A8004DD98D /* PortfolioSocialTests */,
+				CD3B875F1D1300A8004DD98D /* PortfolioSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3B873C1D1300A7004DD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0BEC781D235C9D00F321DE /* Main.storyboard in Resources */,
+				CD3B874F1D1300A7004DD98D /* LaunchScreen.storyboard in Resources */,
+				CD3B874C1D1300A7004DD98D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B87531D1300A8004DD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B875E1D1300A8004DD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3B873A1D1300A7004DD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B87441D1300A7004DD98D /* ViewController.swift in Sources */,
+				CDA2F51E1D133627006DDB59 /* UserTimelineTableViewController.swift in Sources */,
+				CDA2F52A1D135B7F006DDB59 /* NewsTableViewCell.swift in Sources */,
+				CD3B87421D1300A7004DD98D /* AppDelegate.swift in Sources */,
+				CDA2F5271D13568B006DDB59 /* TwitterRequest.swift in Sources */,
+				CDA2F5261D13568B006DDB59 /* Tweet.swift in Sources */,
+				CDA2F5281D13568B006DDB59 /* User.swift in Sources */,
+				CDA2F5201D133CD2006DDB59 /* NewsTableViewController.swift in Sources */,
+				CD3B874A1D1300A7004DD98D /* PortfolioSocial.xcdatamodeld in Sources */,
+				CDA2F5251D13568B006DDB59 /* MediaItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B87511D1300A8004DD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B875A1D1300A8004DD98D /* PortfolioSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B875C1D1300A8004DD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B87651D1300A8004DD98D /* PortfolioSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3B87571D1300A8004DD98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3B873D1D1300A7004DD98D /* PortfolioSocial */;
+			targetProxy = CD3B87561D1300A8004DD98D /* PBXContainerItemProxy */;
+		};
+		CD3B87621D1300A8004DD98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3B873D1D1300A7004DD98D /* PortfolioSocial */;
+			targetProxy = CD3B87611D1300A8004DD98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3B874D1D1300A7004DD98D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3B874E1D1300A7004DD98D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3B87671D1300A8004DD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3B87681D1300A8004DD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3B876A1D1300A8004DD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PortfolioSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3B876B1D1300A8004DD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PortfolioSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3B876D1D1300A8004DD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PortfolioSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortfolioSocial.app/PortfolioSocial";
+			};
+			name = Debug;
+		};
+		CD3B876E1D1300A8004DD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PortfolioSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortfolioSocial.app/PortfolioSocial";
+			};
+			name = Release;
+		};
+		CD3B87701D1300A8004DD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PortfolioSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PortfolioSocial;
+			};
+			name = Debug;
+		};
+		CD3B87711D1300A8004DD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PortfolioSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valentina.henaoar.PortfolioSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PortfolioSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3B87391D1300A7004DD98D /* Build configuration list for PBXProject "PortfolioSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B87671D1300A8004DD98D /* Debug */,
+				CD3B87681D1300A8004DD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B87691D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B876A1D1300A8004DD98D /* Debug */,
+				CD3B876B1D1300A8004DD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B876C1D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B876D1D1300A8004DD98D /* Debug */,
+				CD3B876E1D1300A8004DD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B876F1D1300A8004DD98D /* Build configuration list for PBXNativeTarget "PortfolioSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B87701D1300A8004DD98D /* Debug */,
+				CD3B87711D1300A8004DD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD3B87481D1300A7004DD98D /* PortfolioSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD3B87491D1300A7004DD98D /* PortfolioSocial.xcdatamodel */,
+			);
+			currentVersion = CD3B87491D1300A7004DD98D /* PortfolioSocial.xcdatamodel */;
+			path = PortfolioSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD3B87361D1300A7004DD98D /* Project object */;
+}
