@@ -8,10 +8,6 @@
 
 import Foundation
 
-// a simple container class which just holds the data in a Tweet
-// IndexedKeywords are substrings of the Tweet's text
-// for example, a hashtag or other user or url that is mentioned in the Tweet
-// note carefully the comments on the two range properties in an IndexedKeyword
 // Tweet instances re created by fetching from Twitter using a TwitterRequest
 
 public class Tweet : CustomStringConvertible
@@ -93,10 +89,7 @@ public class Tweet : CustomStringConvertible
                 }
             }
         }
-        // we've failed
-        // but compiler won't let us out of here with non-optional values unset
-        // so set them to anything just to able to return nil
-        // we could make these implicitly-unwrapped optionals, but they should never be nil, ever
+
         self.text = ""
         self.user = User()
         self.created = NSDate()
